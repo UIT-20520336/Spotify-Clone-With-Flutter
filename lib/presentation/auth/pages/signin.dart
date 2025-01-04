@@ -103,6 +103,7 @@ class SigninPage extends StatelessWidget {
       ).applyDefaults(
         Theme.of(context).inputDecorationTheme
       ),
+      obscureText: true,
     );
   }
 

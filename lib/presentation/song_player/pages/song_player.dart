@@ -68,7 +68,7 @@ class SongPlayerPage extends StatelessWidget {
         image: DecorationImage(
           fit: BoxFit.cover,
           image: NetworkImage(
-             '${AppURLs.coverFirestorage}${songEntity.artist} - ${songEntity.title}.jpg?${AppURLs.mediaAlt}'
+             '${AppURLs.coverFirestorage}${songEntity.artist} - ${songEntity.title}.jfif?${AppURLs.mediaAlt}'
           )
         )
       ),
